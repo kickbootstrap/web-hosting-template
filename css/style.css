@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,700,700i'); 
+body {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+}
+a, a:hover, a:focus, a:active {
+	outline: none;
+	text-decoration: none;
+}
+.navbar-brand {
+	font-weight: 700;
+	font-size: 15px;
+}
+.navbar-expand-md .navbar-nav .nav-item, .navbar-expand-md .navbar-nav .nav-item .dropdown-menu a, .navbar-expand-md .navbar-nav .nav-item a.btn {
+	font-size: 15px;
+	font-weight: 600;
+}
+.navbar-toggler {
+  padding: 0;
+  font-size: 1.25rem;
+  border: 0px solid transparent;
+  border-radius: 0;
+  outline: none;
+}
+.navbar-toggler:hover, .navbar-toggler:focus {
+	outline: none;
+	cursor: pointer;
+}
+.dropdown-menu {border-radius: 0; border-width:0px;}
+.btn-outline-secondary:not([disabled]):not(.disabled):active, .btn-outline-secondary:not([disabled]):not(.disabled).active,
+.show > .btn-outline-secondary.dropdown-toggle {
+	border-width: 1px;
+	box-shadow: none;
+}
+@media (min-width : 768px){
+	 .navbar-expand-md .navbar-nav .nav-item {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	 .navbar-expand-md  .navbar-nav .nav-item:first-child{
+		padding-left: 0;
+	}
+	 .navbar-expand-md  .navbar-nav .nav-item:last-child{
+		padding-right: 0;
+	}
+}
+.carousel-caption {
+  bottom: 11rem;
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 300;
+}
+@media (max-width : 768px){
+	.carousel-caption {
+		bottom: 5rem;
+	}
+}
+.carousel-item {
+  height: 36rem;
+}
+.carousel-bg {
+	 width:100%;
+	 height:100%;
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 display: block;
+}
+.carousel-bg .foredrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(#4ca6ff,#0040ff);
+	opacity: 0.9;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 36rem;
+}
+#featured-1 .widget-title {
+	font-size: 18px;
+}
+#featured-1 .featured-icon {
+	font-size: 48px;
+	line-height:75px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	display: inline-block;
+	color: #4c79ff;
+}
+.card {
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+	.card {
+		  width: 100%;
+		  float: none;
+		  display: block;
+	}
+}
+	.card .princing {
+		border: 1px solid #e9ecef;
+		padding: 20px 0px 10px 0px;
+		border-radius: 5px;
+		-webkit-transition: 0.4s ease;
+		-moz-transition: 0.4s ease;
+		-o-transition: 0.4s ease;
+		transition: 0.4s ease;
+	}
+	.card .princing:hover {
+		border: 1px solid #99b3ff;
+		z-index: 2;
+		top: -13px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 0;
+		box-shadow: 20px 0 15px -15px #ccc, -20px 0 15px -15px #ccc;
+		transform: scale(1.1);
+	}
+	@media (max-width : 768px){
+		.card .princing:hover {
+			transform: none;
+			box-shadow: none;
+		}
+	}
+	.card h2.price {
+		color: #4c79ff;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-size: 18px;
+	}
+	.card h3.subprice {
+		padding-bottom: 20px;
+		font-weight: 700;
+		font-size: 24px;
+	}
+	.card h3 sup {
+		font-size: 60%
+	}
+	.card h3 span {
+		font-size: 14px;
+		font-weight: 700;
+		padding-left: 5px;
+	}
+	.card ul li {
+		line-height: 33px;
+	}
+.bg-rocket {
+	background: url("../img/rocket.png") center right no-repeat;
+}
+@media (max-width: 768px) {
+    .bg-rocket {
+		background: none;
+	}
+}
+footer .widget-title {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+footer .region, footer .dropdown-toggle, footer .dropdown-menu, footer .copyright, footer ul li a {
+	font-size: 13px;
+}
+footer ul li a, footer .copyright a {
+	color: #999e99;
+}
+footer ul li a:hover, footer ul li a:focus{
+	color: #cccccc;
+}
+footer hr {
+	border-color: #999e99;
+}
+footer .btn-social {
+	font-size: 14px;
+	line-height:30px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #999e99;
+	border-radius: 100%;
+}
